@@ -1,0 +1,1186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html.home {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline2.png");
+	background-size: cover;
+	background-position: center;
+}
+body.home1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline2.png");
+	background-size: cover;
+	background-position: center;
+}
+html.eventi {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline3.png");
+	background-size: cover;
+	background-position: center;
+}
+body.eventi1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline3.png");
+	background-size: cover;
+	background-position: center;
+}
+html.servizi {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline4.png");
+	background-size: cover;
+	background-position: center;
+}
+body.servizi1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline4.png");
+	background-size: cover;
+	background-position: center;
+}
+html.risto {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline6.png");
+	background-size: cover;
+	background-position: center;
+}
+body.risto1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline6.png");
+	background-size: cover;
+	background-position: center;
+}
+html.storia {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline7.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+body.storia1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline7.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+html.tornei {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline8.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+body.tornei1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline8.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+html.biliardo {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline9.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+body.biliardo1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline9.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+html.aperitivo {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline10.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+body.aperitivo1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Immagini/sfondi/sfondoline10.png");
+	background-size: cover;
+	background-position: top center;
+	overflow: auto;
+}
+header {
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+img.logo {
+	position: relative;
+	float: left;
+	width: 220px;
+	object-fit: contain;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	height: 90%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+h1.titolone {
+	font-family: Old London;
+	font-size: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: #ededed;
+}
+a.btn-home-icona {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: inline-block;
+	z-index: 10;
+	transition: all 0.3s ease-in-out;
+}
+a.btn-home-icona img {
+	width: 80px;
+	height: auto;
+	display: block;
+	cursor: pointer;
+	filter: invert(1);
+}
+a.btn-home-icona:hover {
+	transform: translateY(-50%) scale(1.1);
+	opacity: 0.8;
+}
+a.btn-home-icona:active {
+	transform: translateY(-50%) scale(0.95);
+}
+nav {
+	width: 70%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.box-link-One {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-One:hover {
+	background-image: url("../Immagini/link/eventi.png");
+}
+a.box-link-Two {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center -65px;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-Two:hover {
+	background-image: url("../Immagini/link/servizi.png");
+}
+a.box-link-Three {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center -100px;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-Three:hover {
+	background-image: url("../Immagini/link/risto.png");
+}
+a.box-link-Four {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-Four:hover {
+	background-image: url("../Immagini/link/storia.png");
+}
+a.box-link-Five {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-Five:hover {
+	background-image: url("../Immagini/link/tornei.png");
+}
+a.box-link-Six {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center -8px;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-Six:hover {
+	background-image: url("../Immagini/link/aperitivo.png");
+}
+a.box-link-Seven {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center -100px;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-Seven:hover {
+	background-image: url("../Immagini/link/biliardo.png");
+}
+a.box-link-Eight {
+	background-color: transparent;
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-position: center -25px;
+	background-size: cover;
+	transition: all 1.5s ease-in-out;
+	font-family: Antonio;
+	color: #ededed;
+	font-size: 7rem;
+}
+a.box-link-Eight:hover {
+	background-image: url("../Immagini/link/vetrina.png");
+}
+div.grid {
+	height: 70%;
+	width: 70%;
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	overflow: auto;
+}
+article.card {
+	/*background-color: #837c52;*/
+	background-color: #cf845280;
+	border-radius: 12px;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0 2px 6px rgba(0,0,0,.15);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: auto;
+	box-sizing: border-box;
+	font-family: Antonio;
+	color: #ededed;
+	position: relative;
+}
+.card {
+	/*background-color: #837c52;*/
+	background-color: #cf845280;
+	border-radius: 12px;
+	padding: 15px;
+	box-shadow: 0 2px 6px rgba(0,0,0,.15);
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	font-family: Antonio;
+	color: #ededed;
+	position: relative;
+}
+.card1 {
+	/*background-color: #837c52;*/
+	background-color: #cf845280;
+	border-radius: 12px;
+	padding: 15px;
+	box-shadow: 0 2px 6px rgba(0,0,0,.15);
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	font-family: Antonio;
+	color: #ededed;
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card2 {
+	/*background-color: #837c52;*/
+	background-color: #cf845280;
+	border-radius: 12px;
+	padding: 15px;
+	box-shadow: 0 2px 6px rgba(0,0,0,.15);
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	font-family: Antonio;
+	color: #ededed;
+	position: relative;
+	width: 70%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+.card h2 {
+	font-size: 2rem;
+}
+.card p {
+	font-size: 1.5rem;
+}
+.card1 h2 {
+	font-size: 3rem;
+}
+.card1 p {
+	font-size: 1.5rem;
+}
+.card2 h2 {
+	font-size: 4rem;
+	margin: 10px auto;
+}
+.card2 p {
+	font-size: 1.5rem;
+	margin: 20px auto;
+}
+.form-contatti {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 500px;
+	margin: 20px auto;
+	font-family: Antonio;
+	gap: 8px;
+}
+.form-contatti input, .form-contatti textarea {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid #ededed;
+	border-radius: 6px;
+	padding: 10px;
+	color: #ededed;
+	margin-bottom: 15px;
+}
+.btn-invia {
+	background-color: #cf8452;
+	color: #ededed;
+	font-family: 'Antonio', sans-serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-invia:hover {
+	background-color: #b36f41;
+	transform: translateY(-2px);
+}
+
+.btn-invia:active {
+	transform: translateY(0);
+}
+.transition {
+	margin-top: 288px;
+}
+.card .tramezzino-prima {
+	transition: opacity 1s ease-in-out;
+}
+.card .tramezzino-dopo {
+	transition: opacity 1s ease-in-out;
+}
+.postepay {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.posteitaliane {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.bolloauto {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.bollette {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.bonifico {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.versamenti {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.amazon {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.lotto {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.superenalotto {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.westernunion {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.ria {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.tributi {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: auto;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.birrallaspina {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: 268px;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.svapoelettronica {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: 268px;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.spritz {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: 268px;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.tramezzino-prima {
+	object-fit: contain;
+	background-color: #cf8452;
+	width: calc(100% - 30px);
+  	height: 268px;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+	top: 15px;
+	left: 15px;
+	position: absolute;
+}
+.tramezzino-dopo {
+	object-fit: contain;
+	background-color: #cf8452;
+	width: calc(100% - 30px);
+  	height: 268px;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+	top: 15px;
+	left: 15px;
+	position: absolute;
+	opacity: 0;
+}
+.card:hover .tramezzino-prima {
+	opacity: 0;
+}
+.card:hover .tramezzino-dopo {
+	opacity: 1;
+}
+.cancelleria {
+	float: left;
+	object-fit: contain;
+	background-color: #cf8452;
+	width: 100%;
+  	height: 268px;
+  	margin: 0 0 12px 0;
+  	border-radius: 12px;
+}
+.section-storia {
+	width: 70%;
+	margin: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+}
+.left {
+	width: 50%;
+}
+p.categoria-storia {
+	font-family: Antonio;
+	font-size: 2.5rem;
+	color: #ededed;
+	margin-bottom: 15px; 
+}
+p.testo1storia {
+	font-size: 1.2rem;
+	font-family: Antonio;
+	color: #ededed;
+	line-height: 1.6;
+}
+
+.right {
+	width: 45%;
+	display: flex;
+}
+.foto1storia {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	border-radius: 12px;
+	object-fit: contain;
+}
+.foto2storia {
+	width: auto;
+	max-height: 450px;
+	height: 100%;
+	border-radius: 12px;
+	object-fit: contain;
+}
+footer {
+	background-color: #cf8452;
+	/*background-color: #22acc7;*/
+	width: 100%;
+	height: 10%;
+	font-family: Antonio;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.mail {
+	color: #ededed;
+	float: left;
+	font-size: 1.5rem;
+	padding: 35px;
+}
+.indirizzo {
+	color: #ededed;
+	float: left;
+	font-size: 1.5rem;
+	padding: 35px;
+}
+.telefono {
+	color: #ededed;
+	float: left;
+	font-size: 1.5rem;
+	padding: 35px;
+}
+.facebook {
+	color: #ededed;
+	float: left;
+	font-size: 1.5rem;
+	padding: 35px;
+}
+@media screen and (max-width: 1176px) {
+	.card h2 {
+		font-size: 1.8rem;
+	}
+	.card p {
+		font-size: 1.4rem;
+	}
+	.transition {
+		margin-top: 288px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 268px;
+	}
+}
+@media screen and (max-width: 1161px) {
+	h1.titolone {
+		font-size: 9rem;
+	}
+	img.logo {
+		width: 200px;
+	}
+	.transition {
+		margin-top: 280px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 260px;
+	}
+}
+@media screen and (max-width: 1160px) {
+	h1.titolone {
+		font-size: 8rem;
+	}
+	img.logo {
+		width: 190px;
+	}
+	.transition {
+		margin-top: 272px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 252px;
+	}
+}
+@media screen and (max-width: 1079px) {
+	.card h2 {
+		font-size: 1.6rem;
+	}
+	.card p {
+		font-size: 1.3rem;
+	}
+	.transition {
+		margin-top: 264px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 244px;
+	}
+	.mail, .indirizzo, .telefono, .facebook {
+		font-size: 1.4rem;
+	}
+}
+@media screen and (max-width: 1044px) {
+	h1.titolone {
+		font-size: 7rem;
+	}
+	img.logo {
+		width: 180px;
+	}
+	a.box-link-One {
+		font-size: 6.5rem;
+	}
+	a.box-link-Two {
+		font-size: 6.5rem;
+	}
+	a.box-link-Three {
+		font-size: 6.5rem;
+	}
+	a.box-link-Four {
+		font-size: 6.5rem;
+	}
+	a.box-link-Five {
+		font-size: 6.5rem;
+	}
+	a.box-link-Six {
+		font-size: 6.5rem;
+	}
+	a.box-link-Seven {
+		font-size: 6.5rem;
+	}
+	a.box-link-Eight {
+		font-size: 6.5rem;
+	}
+	.transition {
+		margin-top: 256px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 236px;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.transition {
+		margin-top: 248px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 228px;
+	}
+	.mail, .indirizzo, .telefono, .facebook {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 997px) {
+	.card h2 {
+		font-size: 1.4rem;
+	}
+	.card p {
+		font-size: 1.2rem;
+	}
+	.transition {
+		margin-top: 240px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 220px;
+	}
+}
+@media screen and (max-width: 968px) {
+	.transition {
+		margin-top: 232px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 212px;
+	}
+	.mail, .indirizzo, .telefono, .facebook {
+		font-size: 1.2rem;
+	}
+}
+@media screen and (max-width: 935px) {
+	h1.titolone {
+		font-size: 6rem;
+	}
+	img.logo {
+		width: 170px;
+	}
+	a.box-link-One {
+		font-size: 5.5rem;
+	}
+	a.box-link-Two {
+		font-size: 5.5rem;
+	}
+	a.box-link-Three {
+		font-size: 5.5rem;
+	}
+	a.box-link-Four {
+		font-size: 5.5rem;
+	}
+	a.box-link-Five {
+		font-size: 5.5rem;
+	}
+	a.box-link-Six {
+		font-size: 5.5rem;
+	}
+	a.box-link-Seven {
+		font-size: 5.5rem;
+	}
+	a.box-link-Eight {
+		font-size: 5.5rem;
+	}
+	.transition {
+		margin-top: 224px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 204px;
+	}
+}
+@media screen and (max-width: 913px) {
+	.transition {
+		margin-top: 216px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 196px;
+	}
+	.mail, .indirizzo, .telefono, .facebook {
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 900px) {
+	.card h2 {
+		font-size: 1.2rem;
+	}
+	.card p {
+		font-size: 1.1rem;
+	}
+	.transition {
+		margin-top: 208px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 188px;
+	}
+}
+@media screen and (max-width: 860px) {
+	.transition {
+		margin-top: 200px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 180px;
+	}
+	.mail, .indirizzo, .telefono, .facebook {
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 830px) {
+	h1.titolone {
+		font-size: 5rem;
+	}
+	img.logo {
+		width: 160px;
+	}
+	a.box-link-One {
+		font-size: 4.5rem;
+	}
+	a.box-link-Two {
+		font-size: 4.5rem;
+	}
+	a.box-link-Three {
+		font-size: 4.5rem;
+	}
+	a.box-link-Four {
+		font-size: 4.5rem;
+	}
+	a.box-link-Five {
+		font-size: 4.5rem;
+	}
+	a.box-link-Six {
+		font-size: 4.5rem;
+	}
+	a.box-link-Seven {
+		font-size: 4.5rem;
+	}
+	a.box-link-Eight {
+		font-size: 4.5rem;
+	}
+	.transition {
+		margin-top: 192px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 172px;
+	}
+}
+@media screen and (max-width: 803px) {
+	.card h2 {
+		font-size: 1rem;
+	}
+	.card p {
+		font-size: 1rem;
+	}
+	.transition {
+		margin-top: 184px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 164px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.section-storia {
+		flex-direction: column;
+		width: 90%;
+	}
+	.left, .right {
+		width: 100%;
+	}
+	.foto2storia {
+		width: inherit;
+	}
+	.card2 {
+		overflow: auto;
+	}
+}
+@media screen and (max-width: 720px) {
+	h1.titolone {
+		font-size: 4rem;
+	}
+	img.logo {
+		width: 150px;
+	}
+	a.box-link-One {
+		font-size: 3.5rem;
+	}
+	a.box-link-Two {
+		font-size: 3.5rem;
+	}
+	a.box-link-Three {
+		font-size: 3.5rem;
+	}
+	a.box-link-Four {
+		font-size: 3.5rem;
+	}
+	a.box-link-Five {
+		font-size: 3.5rem;
+	}
+	a.box-link-Six {
+		font-size: 3.5rem;
+	}
+	a.box-link-Seven {
+		font-size: 3.5rem;
+	}
+	a.box-link-Eight {
+		font-size: 3.5rem;
+	}
+	.transition {
+		margin-top: 176px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 156px;
+	}
+}
+@media screen and (max-width: 700px) {
+	nav, div.grid {
+		width: 100%;
+	}
+	.transition {
+		margin-top: 168px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 148px;
+	}
+}
+@media screen and (max-width: 605px) {
+	h1.titolone {
+		font-size: 3rem;
+	}
+	img.logo {
+		width: 140px;
+	}
+	a.box-link-One {
+		font-size: 2.5rem;
+	}
+	a.box-link-Two {
+		font-size: 2.5rem;
+	}
+	a.box-link-Three {
+		font-size: 2.5rem;
+	}
+	a.box-link-Four {
+		font-size: 2.5rem;
+	}
+	a.box-link-Five {
+		font-size: 2.5rem;
+	}
+	a.box-link-Six {
+		font-size: 2.5rem;
+	}
+	a.box-link-Seven {
+		font-size: 2.5rem;
+	}
+	a.box-link-Eight {
+		font-size: 2.5rem;
+	}
+}
+@media screen and (max-width: 585px) {
+	.mail, .indirizzo, .telefono, .facebook {
+		font-size: 0.9rem;
+	}
+	.transition {
+		margin-top: 160px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 140px;
+	}
+}
+@media screen and (max-width: 460px) {
+	h1.titolone {
+		font-size: 2.5rem;
+	}
+	img.logo {
+		width: 130px;
+	}
+	a.box-link-One {
+		font-size: 2rem;
+	}
+	a.box-link-Two {
+		font-size: 2rem;
+	}
+	a.box-link-Three {
+		font-size: 2rem;
+	}
+	a.box-link-Four {
+		font-size: 2rem;
+	}
+	a.box-link-Five {
+		font-size: 2rem;
+	}
+	a.box-link-Six {
+		font-size: 2rem;
+	}
+	a.box-link-Seven {
+		font-size: 2rem;
+	}
+	a.box-link-Eight {
+		font-size: 2rem;
+	}
+	.transition {
+		margin-top: 152px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 132px;
+	}
+}
+@media screen and (max-width: 280px) {
+	h1.titolone {
+		font-size: 2rem;
+	}
+	img.logo {
+		width: 120px;
+	}
+	a.box-link-One {
+		font-size: 1.5rem;
+	}
+	a.box-link-Two {
+		font-size: 1.5rem;
+	}
+	a.box-link-Three {
+		font-size: 1.5rem;
+	}
+	a.box-link-Four {
+		font-size: 1.5rem;
+	}
+	a.box-link-Five {
+		font-size: 1.5rem;
+	}
+	a.box-link-Six {
+		font-size: 1.5rem;
+	}
+	a.box-link-Seven {
+		font-size: 1.5rem;
+	}
+	a.box-link-Eight {
+		font-size: 1.5rem;
+	}
+	.transition {
+		margin-top: 144px;
+	}
+	.birrallaspina, .svapoelettronica, .spritz, .tramezzino-prima, .tramezzino-dopo, .cancelleria {
+		height: 124px;
+	}
+}
